@@ -1,0 +1,145 @@
+
+    
+
+/*-----MAIN STYLING-----*/
+body{
+    width: 60%;
+    max-width: 700px;
+    background: #EFF5EC;
+    margin:auto;
+    font-family: 'Zilla Slab', serif;
+    line-height: 1.8em;
+    
+}
+
+/*-----TYPOGRAPHY-----*/
+h1, h2{
+    font-weight: normal;
+    text-align: center;
+    font-family: 'Orbitron', sans-serif;
+    line-height: normal;
+}
+
+h1{
+   font-size: 3.4em;
+    margin-top: 1.8em;
+    margin-bottom: 0.4em;
+    padding-top: 0.5em; 
+    color: #2E605D;
+}
+
+h2{
+    font-size: 2em;
+    margin-top: 1.8em;
+    margin-bottom: 1.6em;
+    color: #363636;
+}
+
+h3{
+    font-size: 1.2em;
+    margin-top: 0.1em;
+    margin-bottom: 0.3em;
+    color: #FFD873;
+}
+
+
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 1em 0;
+}
+
+ul li{
+    margin:2px;
+}
+
+p {
+    margin-bottom: 2em;
+    font-family: 'Zilla Slab', serif;
+    font-size: 1.2em;
+}
+
+blockquote{
+    font-size: 1.3em;
+    hanging-punctuation: first;
+    color: #2E605D;
+    border-left: 8px solid #97A198;
+    margin: 1.5em 10px;
+    padding: 0.5em 10px;
+    font-family: 'Zilla Slab', serif;
+   
+}
+
+.people{
+    background: #d1d1d1;
+    padding-bottom: 1em;
+    width: 100%;
+    height: 100px;
+
+}
+
+.img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 5px;
+    width: 50%;
+}
+
+
+
+
+/*-----STYLING LINKS-----*/
+
+a{
+    color: #2E605D;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #0d0d0d;
+}
+
+
+/*-----NAVIGATION-----*/
+nav{
+    position: fixed;
+    top: 0;
+    left:0;
+    margin:0;
+    width: 100%;
+    background-color: #FFD873;
+    padding: .5em o;
+    font-size: 0.80em;
+    font-family: 'Zilla Slab', serif;
+}
+
+nav ul{
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+nav ul li{
+    display: inline;
+    margin: 20px;
+    background: none;
+}
+
+
+/*----FOOTER----*/
+footer{
+    text-align: center;
+    font-size: 0.7em;
+    padding: 1em 0 1em 0;
+    margin: 1em 0 1em 0;
+}
+
+hr{
+    margin-top: 1em;
+    margin-bottom: 2em;
+}
+
+
+
+
