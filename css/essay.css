@@ -39,7 +39,7 @@ h3{
     font-size: 1.2em;
     margin-top: 0.1em;
     margin-bottom: 0.3em;
-    color: #FFD873;
+    color: #2E605D;
 }
 
 
@@ -68,6 +68,11 @@ blockquote{
     padding: 0.5em 10px;
     font-family: 'Zilla Slab', serif;
    
+}
+
+blockquote cite{
+    font-size: 0.72em;
+    color: #363636; 
 }
 
 .people{
